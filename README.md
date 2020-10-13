@@ -15,7 +15,7 @@ mongod --dbpath mongo-data
 
 In a seperate terminal window, clone the git repo:  
 ```
-git clone https://github.com/csc309-summer-2020/team16.git
+git clone https://github.com/ashley-d-lu/Good-Samaritan-Hub.git
 ```
 
 Then navigate to the root directory of the repo and run the following:   
