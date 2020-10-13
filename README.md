@@ -1,22 +1,37 @@
-# Our React App: The Good Samaritan Hub
+# The Good Samaritan Hub :seedling: - a MERN Stack App
 
-## Link to App
+## About the App
+The Good Samaritan Hub is a web app that matches volunteers with those in need. It has a fully functioning front-end and back-end, implemented using MERN stack. It features user authentication and authorization in its API routes.
+
+## Link to Deployed App
 https://hidden-fjord-63319.herokuapp.com/
 
-## Instructions to Run (If needed)
-Clone the github repository by running the following:  
-`git clone https://github.com/csc309-summer-2020/team16.git`
+## Instructions to Run Locally
+Start a local Mongo database:
+```
+mkdir mongo-data
+mongod --dbpath mongo-data
+```
 
-Then navigate to `/csc309-summer-2020/team16/` and run the following:   
-`cd client && npm install && npm run build && cd ../server && npm install && npm start`
+In a seperate terminal window, clone the git repo:  
+```
+git clone https://github.com/csc309-summer-2020/team16.git
+```
+
+Then navigate to the root directory of the repo and run the following:   
+```
+cd client && npm install && npm run build && cd ../server && npm install && npm start
+```
 
 Now open up your browser and go to `localhost:5000`
 
 ## Instructions to Use
 ### User
-#### Login Credentials:
+#### Login Credentials*:
 username: `user`  
 password: `user`
+
+*If you are running the app locally, you will have to register a user account.
 
 #### Features:
 
@@ -40,18 +55,20 @@ password: `user`
 
 ### Admin
 
-#### Login Instructions and Credentials:
+#### Login Instructions and Credentials*:
 The admin login page can be found at `/adminLogin`
 
 username: `admin`  
 password: `admin`  
+
+*If you are running the app locally, you will have to insert an admin account directly into the mongo database.
 
 #### Features:
 - After logging in the admin can see a list of all the users. The list is sorted with those having a report pending at the top to allow the admin to easily see them. 
 - Clicking a user shows their complete information and post history, as well as any reports other users have made about them. The admin can look at the reports and either delete the report or ban the user with a ban reason. 
 - The admin can also unban a previously banned user.
 
-## Overview of Routes
+## API Routes
 ### Session Handling Routes
 #### No authentication needed:
 
