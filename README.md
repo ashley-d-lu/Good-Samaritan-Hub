@@ -10,7 +10,7 @@ The Good Samaritan Hub is a web app that matches volunteers with people in need.
 |<img width=400 alt="Profile" src="previews/profile.png"> **Profile** | <img width=400 alt="Settings" src="previews/settings.png"> **Settings** |<img width=400 alt="Admin" src="previews/admin.png"> **Admin** |
 
 ## Deployed Demo
-**https://hidden-fjord-63319.herokuapp.com/**
+~~https://hidden-fjord-63319.herokuapp.com/~~ (Currently down due to the closure of Heroku's free tier)
 
 #### Login Credentials:
 username: `user`  
